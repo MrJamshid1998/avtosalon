@@ -1,0 +1,967 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <title>Auto salon</title>
+    <meta content="" name="descriptison">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/images.png" rel="icon">
+    <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+    <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+    <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+    <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+    <!-- Template Main CSS File -->
+    <link href="assets/css/style.css" rel="stylesheet">
+
+    <!-- =======================================================
+  * Template Name: Techie - v2.1.0
+  * Template URL: https://bootstrapmade.com/techie-free-skin-bootstrap-3/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+    <!-- ======= Header ======= -->
+    <header id="header" class="fixed-top ">
+        <div class="container-fluid">
+
+            <div class="row justify-content-center">
+                <div class="col-xl-9 d-flex align-items-center">
+                    <h1 class="logo mr-auto"><a href="index.html">AutoSalon</a></h1>
+                    <!-- Uncomment below if you prefer to use an image logo -->
+                    <!-- <a href="index.html" class="logo mr-auto"><img src="assets/img/logo.png" alt="" class="img-fluid"></a>-->
+
+                    <nav class="nav-menu d-none d-lg-block">
+                        <ul>
+                            <li class="active"><a href="index.html">Asosiy</a></li>
+                            <li><a href="#about">Yangiliklar</a></li>
+                            <li><a href="#services">Bizning xizmatlar</a></li>
+                            <li><a href="#portfolio">Mashinalar</a></li>
+                            <li class="drop-down"><a href="">Sotib olish</a>
+                                <ul>
+                                    <li><a href="inner-page.php?mid=1">Labo</a></li>
+                                    <li><a href="inner-page.php?mid=2">Damas</a></li>
+                                    <li><a href="inner-page.php?mid=3">Spark</a></li>
+                                    <li><a href="inner-page.php?mid=4">Nexia</a></li>
+                                    <li><a href="inner-page.php?mid=5">Cobalt</a></li>
+                                    <li><a href="inner-page.php?mid=6">Lasetti</a></li>
+                                    <li><a href="inner-page.php?mid=7">Malibu</a></li>
+                                    <li><a href="inner-page.php?mid=8">Tracker 2</a></li>
+                                    <li><a href="inner-page.php?mid=9">Equinox</a></li>
+                                    <li><a href="inner-page.php?mid=10">Traverse</a></li>
+                                    <li><a href="inner-page.php?mid=11">Trailblazer</a></li>
+                                    <li><a href="inner-page.php?mid=12">Tahoi</a></li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#contact">Aloqa</a>
+                            </li>
+                            <li>
+                                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Kirish</button>
+                            </li>
+                        </ul>
+                    </nav>
+                    <!-- .nav-menu -->
+
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <!-- End Header -->
+<!-- Modal begin -->
+<div class="modal fade" style="z-index: 1000000;" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Tizimga kirish</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+            </div>
+            <div class="modal-body">
+                <form action="admin.php" method="post">
+                    <div class="form-group">
+                        <label for="recipient-name" class="col-form-label">Login:</label>
+                        <input type="text" required name="login" class="form-control" id="recipient-name">
+                    </div>
+                    <div class="form-group">
+                        <label for="recipient-pas" class="col-form-label">Parol:</label>
+                        <input type="password" required name="pas" class="form-control" id="recipient-pas">
+                    </div>
+                    <div class="form-group">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Orqaga</button>
+                        <button type="submit" class="btn btn-primary">Kirish</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Modal end -->
+
+    <!-- ======= Hero Section ======= -->
+    <section id="hero" class="d-flex align-items-center">
+
+        <div class="container-fluid" data-aos="fade-up">
+            <div class="row justify-content-center">
+                <div class="col-xl-5 col-lg-6 pt-3 pt-lg-0 order-2 order-lg-1 d-flex flex-column justify-content-center">
+                    <h1>UZAUTO MOTORS SIZNI DILERLIK MARKAZLARIDA KUTMOQDA!</h1>
+                    <!-- <h2>UzAuto Motors Sizni dilerlik markazlarida kutmoqda!</h2> -->
+                    <div><a href="https://uzautomotors.com/" class="btn-get-started scrollto">Ko`proq ma'lumot</a></div>
+                </div>
+                <div class="col-xl-4 col-lg-6 order-1 order-lg-2 hero-img" data-aos="zoom-in" data-aos-delay="150">
+                    <img src="assets/img/images (1).jpg" width="100%" height="25%" style="border-radius:12px;" class="img-fluid animated" alt="">
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <!-- End Hero -->
+
+    <main id="main">
+
+        <!-- ======= About Section ======= -->
+        <section id="about" class="about">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-6 order-1 order-lg-2" data-aos="zoom-in" data-aos-delay="150">
+                        <img src="assets/img/IMG_7579.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="col-lg-6 pt-4 pt-lg-0 order-2 order-lg-1 content" data-aos="fade-right">
+                        <h3>So`ngi yangiliklar</h3>
+                        <p class="font-italic">
+                            “UZAUTO MOTORS” CHEVROLET AVTOMOBIL MODELLARINING SHARTNOMALARINI YANGILAYDI.
+                        </p>
+                        <p>
+                            UzAuto Motors butun pandemiya mobaynida 2020-yilning mart oyidan buyon ishlab chiqarishni optimallashtirish va global muammolarning ishlab chiqarish jarayoni hamda tannarxga ta’sirini kamaytirish uchun o’z oldiga qo’ygan yuqori talablar rejasini bajardi.
+                            “Tanaffus” davomida kompaniya navbatlarni barqarorlashtirishga muvaffaq bo‘ldi va kompaniya 3-martdan boshlab Chevrolet Lacetti, Cobalt, Nexia va Spark avtomobillari uchun shartnomalar qayta tiklanishi haqida rasman ma’lum
+                            qiladi.
+                        </p>
+                        <a href="https://uzautomotors.com/articles/press_reliz_loyixasi" class="read-more">Ko`proq <i class="icofont-long-arrow-right"></i></a>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End About Section -->
+
+        <!-- ======= Counts Section ======= -->
+        <section id="counts" class="counts">
+            <div class="container">
+
+                <div class="row counters">
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-toggle="counter-up">10,678</span>
+                        <p>Mijozlar</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-toggle="counter-up">30</span>
+                        <p>Automobillar</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-toggle="counter-up">1,465</span>
+                        <p>Ishchilar soni</p>
+                    </div>
+
+                    <div class="col-lg-3 col-6 text-center">
+                        <span data-toggle="counter-up">12</span>
+                        <p>Yangi loyihalar</p>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Counts Section -->
+
+        <!-- ======= Services Section ======= -->
+        <section id="services" class="services section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Xizmatlar</h2>
+                    <p>Avtomobildan tejamkor va xavfsiz foydalanish, va uni yaxshi holatida saqlab turish uchun, avtomobilga texnik xizmat ko'rsatilishi belgilangan davriylikda bajarilishi kerak.</p>
+                    <p>Texnik xizmat ko`rsatishning bajarilishi servis kitobchasidagi yozuv bilan tasdiqlanadi. Uning sanasi va o`tilgan yo`l texnik xizmat ko`rsatish stansiyasining muhri va imzo bilan tasdiqlanadi. Texnik xizmat ko`rsatishdan tasdiqlangan
+                        holda o`tish kafolat majburiyatlari va boshqa majburiyatlar bajarilishining majburiy sharti bo`lib, avtomobilning sotilishida hisobga olinadi, shuning uchun servis kitobchasi to`g`ri to`ldirilishini nazorat qiling.</p>
+                </div>
+
+                <div class="section-title">
+                    <h2>FOYDALANISHNING OG`IR SHAROITLARI</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="icon-box iconbox-blue">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,521.0016835830174C376.1290562159157,517.8887921683347,466.0731472004068,529.7835943286574,510.70327084640275,468.03025145048787C554.3714126377745,407.6079735673963,508.03601936045806,328.9844924480964,491.2728898941984,256.3432110539036C474.5976632858925,184.082847569629,479.9380746630129,96.60480741107993,416.23090153303,58.64404602377083C348.86323505073057,18.502131276798302,261.93793281208167,40.57373210992963,193.5410806939664,78.93577620505333C130.42746243093433,114.334589627462,98.30271207620316,179.96522072025542,76.75703585869454,249.04625023123273C51.97151888228291,328.5150500222984,13.704378332031375,421.85034740162234,66.52175969318436,486.19268352777647C119.04800174914682,550.1803526380478,217.28368757567262,524.383925680826,300,521.0016835830174"></path>
+                </svg>
+                                <i class="bx bxl-dribbble"></i>
+                            </div>
+                            <h4><a href="">1</a></h4>
+                            <p>10 km dan kamroq qisqa masofaga tez-tez yurish;</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="icon-box iconbox-orange ">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,582.0697525312426C382.5290701553225,586.8405444964366,449.9789794690241,525.3245884688669,502.5850820975895,461.55621195738473C556.606425686781,396.0723002908107,615.8543463187945,314.28637112970534,586.6730223649479,234.56875336149918C558.9533121215079,158.8439757836574,454.9685369536778,164.00468322053177,381.49747125262974,130.76875717737553C312.15926192815925,99.40240125094834,248.97055460311594,18.661163978235184,179.8680185752513,50.54337015887873C110.5421016452524,82.52863877960104,119.82277516462835,180.83849132639028,109.12597500060166,256.43424936330496C100.08760227029461,320.3096726198365,92.17705696193138,384.0621239912766,124.79988738764834,439.7174275375508C164.83382741302287,508.01625554203684,220.96474134820875,577.5009287672846,300,582.0697525312426"></path>
+                </svg>
+                                <i class="bx bx-file"></i>
+                            </div>
+                            <h4><a href="">2</a></h4>
+                            <p>Avtomobilnig uzoq vaqt turishi va/yoki avtomobilning past tezlik bilan tez-tez to'xtash rejimida yurishi;</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-lg-0" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="icon-box iconbox-pink">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,541.5067337569781C382.14930387511276,545.0595476570109,479.8736841581634,548.3450877840088,526.4010558755058,480.5488172755941C571.5218469581645,414.80211281144784,517.5187510058486,332.0715597781072,496.52539010469104,255.14436215662573C477.37192572678356,184.95920475031193,473.57363656557914,105.61284051026155,413.0603344069578,65.22779650032875C343.27470386102294,18.654635553484475,251.2091493199835,5.337323636656869,175.0934190732945,40.62881213300186C97.87086631185822,76.43348514350839,51.98124368387456,156.15599469081315,36.44837278890362,239.84606092416172C21.716077023791087,319.22268207091537,43.775223500013084,401.1760424656574,96.891909868211,461.97329694683043C147.22146801428983,519.5804099606455,223.5754009179313,538.201503339737,300,541.5067337569781"></path>
+                </svg>
+                                <i class="bx bx-tachometer"></i>
+                            </div>
+                            <h4><a href="">3</a></h4>
+                            <p>Avtomobilni changi ko'p joyda boshqarish;</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="100">
+                        <div class="icon-box iconbox-yellow">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,503.46388370962813C374.79870501325706,506.71871716319447,464.8034551963731,527.1746412648533,510.4981551193396,467.86667711651364C555.9287308511215,408.9015244558933,512.6030010748507,327.5744911775523,490.211057578863,256.5855673507754C471.097692560561,195.9906835881958,447.69079081568157,138.11976852964426,395.19560036434837,102.3242989838813C329.3053358748298,57.3949838291264,248.02791733380457,8.279543830951368,175.87071277845988,42.242879143198664C103.41431057327972,76.34704239035025,93.79494320519305,170.9812938413882,81.28167332365135,250.07896920659033C70.17666984294237,320.27484674793965,64.84698225790005,396.69656628748305,111.28512138212992,450.4950937839243C156.20124167950087,502.5303643271138,231.32542653798444,500.4755392045468,300,503.46388370962813"></path>
+                </svg>
+                                <i class="bx bx-layer"></i>
+                            </div>
+                            <h4><a href="">4</a></h4>
+                            <p>Avtomobilni tepalikli joylarda va tog'da boshqarish;</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="200">
+                        <div class="icon-box iconbox-red">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,532.3542879108572C369.38199826031484,532.3153073249985,429.10787420159085,491.63046689027357,474.5244479745417,439.17860296908856C522.8885846962883,383.3225815378663,569.1668002868075,314.3205725914397,550.7432151929288,242.7694973846089C532.6665558377875,172.5657663291529,456.2379748765914,142.6223662098291,390.3689995646985,112.34683881706744C326.66090330228417,83.06452184765237,258.84405631176094,53.51806209861945,193.32584062364296,78.48882559362697C121.61183558270385,105.82097193414197,62.805066853699245,167.19869350419734,48.57481801355237,242.6138429142374C34.843463184063346,315.3850353017275,76.69343916112496,383.4422959591041,125.22947124332185,439.3748458443577C170.7312796277747,491.8107796887764,230.57421082200815,532.3932930995766,300,532.3542879108572"></path>
+                </svg>
+                                <i class="bx bx-slideshow"></i>
+                            </div>
+                            <h4><a href="">5</a></h4>
+                            <p>Atrof muhitning harorati 0°C dan past bo'lganda dvigatelni tez-tez ishga tushirish</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="icon-box iconbox-teal">
+                            <div class="icon">
+                                <svg width="100" height="100" viewBox="0 0 600 600" xmlns="http://www.w3.org/2000/svg">
+                  <path stroke="none" stroke-width="0" fill="#f5f5f5" d="M300,566.797414625762C385.7384707136149,576.1784315230908,478.7894351017131,552.8928747891023,531.9192734346935,484.94944893311C584.6109503024035,417.5663521118492,582.489472248146,322.67544863468447,553.9536738515405,242.03673114598146C529.1557734026468,171.96086150256528,465.24506316201064,127.66468636344209,395.9583748389544,100.7403814666027C334.2173773831606,76.7482773500951,269.4350130405921,84.62216499799875,207.1952322260088,107.2889140133804C132.92018162631612,134.33871894543012,41.79353780512637,160.00259165414826,22.644507872594943,236.69541883565114C3.319112789854554,314.0945973066697,72.72355303640163,379.243833228382,124.04198916343866,440.3218312028393C172.9286146004772,498.5055451809895,224.45579914871206,558.5317968840102,300,566.797414625762"></path>
+                </svg>
+                                <i class="bx bx-arch"></i>
+                            </div>
+                            <h4><a href="">6</a></h4>
+                            <p>Avtomobilni shahar rejimida, atrof muhitning harorati 32°C va undan yuqori bo'lganda boshqarish;</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Services Section -->
+
+        <!-- ======= Features Section ======= -->
+        <section id="features" class="features">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>E'TIBOR BERING</h2>
+                    <p>Sizga avtomobilni topshirishdan avval, diler ishlab chiqaruvchi zavodning standart yo‘riqnomalariga muvofiq, avtomobilning uzoq foydalanish muddati mobaynida buzilmagan holda foydalanishni kafolatlash uchun uning butlanishini va texnik
+                        holatini tekshiradi. Foydalanish davrida yashirin nuqson aniqlansa, Diler Siz aniqlagan nuqsonni bartaraf etish maqsadida barcha choralarni ko‘rishi uchun darhol unga murojaat qiling. Sotuvdan avvalgi ko‘rikning bo‘lmaganligi yoki
+                        uning sotuvdan avvalgi tayyorgarlikni o‘tkazish reglamentiga rioya qilinmagan holda o‘tkazilishi, hamda servis kitobchasida tegishli yozuvlarning yo‘qligi kafolat ta’mirlash huquqidan mahrum bo‘lishga olib keladi. Kafolatli foydalanish
+                        muddati davrida ta’mirlash uchun javobgarlik Sizga avtomobilni sotgan rasmiy dilerga yuklatiladi.</p>
+                </div>
+
+                <div class="section-title">
+                    <h2>DILER SOTISHDAN OLDIN TEKSHIRIB BERISHGA MAJBUR</h2>
+                </div>
+                <div class="row">
+                    <div class="col-lg-6 order-2 order-lg-1 d-flex flex-column align-items-lg-center">
+                        <div class="icon-box mt-5 mt-lg-0" data-aos="fade-up" data-aos-delay="100">
+                            <i class="bx bx-receipt"></i>
+                            <h4>MOTOR BO‘LIMI</h4>
+                            <p>Zarur bo‘lganda:
+                                <br> 1. Sovutish suyuqligining sathi va zichligini, shuningdek sovutish tizimining germetikligini tekshiring;;
+                                <br> 2. Akkumulyator batareyasining sozligini va holatini tekshiring, zarur bo'lganda zaryadlang;
+                                <br> 3. Ilashish muftasi gidroyuritmasining va bosh tormoz silindrining bakidagi ish suyuqligining sathini tekshiring;
+                                <br> 4. Oyna yuvish moslamasining bakidagi suyuqlik sathini tekshiring;;
+                                <br> 5. Dvigatelda va uzatmalar qutisida moy sathini tekshiring;
+                                <br> 6. Shamollatgich yuritmasi / o'zgaruvchan tok generatori/kuchaytirgichli rul yuritmasining tasmalari tarangligini tekshirish, zarur bo'lganda sozlash;
+                                <br> 7. Dvigatel bo'linmasida elektr simlar, shlang va quvurlar to'g'ri o'rnatilganligini tekshirib turing va ularni harakatlanadigan va qiziydigan qismlardan xavfsiz masofada joylashtirish;
+                                <br> 8. Avtomobil diagnostika tizimlarini diagnostika skanerlari bilan xato bor yo’qligini tekshiring;</p>
+                        </div>
+                        <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="200">
+                            <i class="bx bx-cube-alt"></i>
+                            <h4>BOSHQARUV ORGANLARI</h4>
+                            <p>Ishlashini tekshiring, va zarur bo‘lganda ularni sozlang:
+                                <br> 1. Xavfsizlik tasmalari sozligini va holatini tekshiring (zarur bo'lganda sozlang);
+                                <br> 2. O'rindiqlarni sozligini va holatini tekshiring (zarur bo'lganda sozlang);
+                                <br> 3. To'xtab turish tormozi dastagining holati va sozligini tekshiring, zarur bo'lganda sozlang;
+                                <br> 4. Tovush signalining ishlashini tekshiring;
+                                <br> 5. Uzoqni va yaqinni yoritish faralarining, yonib-o'chib turuvchi yorug'lik signallarining ishlashini tekshirib ko'ring, zarur bo'lganda sozlang;
+                                <br> 6. Orqa chiroqlar va davlat raqami belgisining yoritilishini tekshiring;
+                                <br> 7. Asboblar paneli va signalizator chiroqlarining ishlashini tekshiring;
+                                <br> 8. Salonni yoritish chirog'ining ishlashini barcha rejimlarda tekshiring;
+                                <br> 9. Oyna tozalagichi va oyna yuvish moslamasining ishlashini tekshiring;
+                                <br> 10. Ichki yoritkich plafoni;
+                                <br> 11. Avtomobil to'plamida bo'lgan qo'shimcha jihozlar va anjomlar ishlashini tekshiring;</p>
+                        </div>
+                        <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="300">
+                            <i class="bx bx-cube"></i>
+                            <h4>AVTOMOBIL YURISH QISMI</h4>
+                            <p>1. Shinalardagi havo bosimini tekshiring, zarur bo'lganda sozlang;
+                                <br> 2. G'ildiraklar ishonchli mahkamlanganligini tekshiring, zarur bo'lganda kerakli tarzda mahkamlang;
+                                <br> 3. Avtomobilning pastki qismini mahkamlanmagan va yetishmayotgan elementlar bor yo'qligini, shlang va quvurlarning to'g'ri o'rnatilganligini, yonilg'i va boshqa texnik suyuqliklarning sizib chiqmayotganligini tekshiring,
+                                zarur bo'lganda muammoni bartaraf eting.</p>
+                        </div>
+                        <div class="icon-box mt-5" data-aos="fade-up" data-aos-delay="400">
+                            <i class="bx bx-shield"></i>
+                            <h4>AVTOMOBILNING TASHQI QISMI</h4>
+                            <p>Tekshiring va zarur bo‘lganda sozlang:
+                                <br> 1. Shinalarda havo bosimi;
+                                <br> 2. G‘ildiraklarning boltlarini / gaykalarini tortib mustahkamlash kuchining momenti;
+                                <br> 3. Avtomobilda suyuqliklarning oqib ketishi.</p>
+                        </div>
+                    </div>
+                    <div class="image col-lg-6 order-1 order-lg-2 " data-aos="zoom-in" data-aos-delay="100">
+                        <img src="assets/img/service_s.png" alt="" class="img-fluid">
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Features Section -->
+
+        <!-- ======= Testimonials Section ======= -->
+        <section id="testimonials" class="testimonials section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>DILERLAR</h2>
+                </div>
+
+                <div class="owl-carousel testimonials-carousel">
+
+                    <div class="testimonial-item">
+                        <p>
+                            <i class="bx bxs-quote-alt-left quote-icon-left"></i> Manzil: Buxoro shahar Ibn Sino va Afrosiyob kuhalari kesishmasi. Omad savdo majmuasi Korzinka №2
+                            <br> Tel.: (97) 307-30-30, (95) 325-77-00
+                            <br> E-mail:
+                            <br> Сайт:
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            <img src="assets/img/testimonials/f3f9dc07ec1e234713c2cc966b573ce7.jpg" class="" alt="">
+
+                        </p>
+                        <h3>«AUTO-CENTRE-BUXORO» MCHJ</h3>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <p>
+                            <i class="bx bxs-quote-alt-left quote-icon-left"></i> Manzil: Qashqadaryo viloyati, Qarshi tumani, Chaman MSG <br> Tel.: 91-640-09-09, 97-585-05-58, 97-297-44-44 <br> E-mail: qarshi.autocentre@uzautomotors.com <br> Сайт:
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            <img src="assets/img/testimonials/9f9efb7d2e3bb5c21239b1367f439c80.jpg" class="" alt="">
+
+                        </p>
+                        <h3>"QARSHI AUTOCENTRE" MCHJ</h3>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <p>
+                            <i class="bx bxs-quote-alt-left quote-icon-left"></i> Manzil: Toshkent vil. Nurafshon shahar, Birlik MFY, Toshkent yo'li ko'chasi <br> Tel.: (97) 705 02 22; (71)-203-30-20 <br> E-mail: nurafshon_avtocentr@mail.ru <br> Сайт:
+                            <a href="http://www.nuravto.uz">www.nuravto.uz</a>
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            <img src="assets/img/testimonials/7dbcf19bcc56b9d822584635775d4dcd.jpg" class="" alt="">
+
+                        </p>
+                        <h3>MCHJ "NURAFSHON AVTOCENTR"</h3>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <p>
+                            <i class="bx bxs-quote-alt-left quote-icon-left"></i> Manzil: Andijon viloyati, Bo'ston tumani, Mustaqillik ko'chasi 998 uy <br> Tel.: 998 74-333-22-25, 94-566-60-77 <br> E-mail: asr@uzautomotors.com <br> Сайт:
+                            <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+                            <img src="assets/img/testimonials/bdf32ccc43963f0b1a26189063ca1392.jpg" class="" alt="">
+
+                        </p>
+                        <h3>"ASR PROGRESS INNOTECH" MCHJ ( DILERLIK SHARTNOMASI BEKOR QILINGAN)</h3>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Testimonials Section -->
+
+        <!-- ======= Portfolio Section ======= -->
+        <section id="portfolio" class="portfolio">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Mashinalar</h2>
+                    <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi
+                        quidem hic quas.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-12 d-flex justify-content-center">
+                        <ul id="portfolio-flters">
+                            <li data-filter="*" class="filter-active">Hammasi</li>
+                            <li data-filter=".filter-app">Labo, Damas, Spark, Nexia, Cobalt</li>
+                            <li data-filter=".filter-card">Lasetti, Malibu, Tracker 2, Equinox</li>
+                            <li data-filter=".filter-web">Traverse, Trailblazer, Tahoi</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="row portfolio-container">
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/auto/labo.png" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>CHEVROLET</h4>
+                                <p>LABO</p>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/auto/labo.png" data-gall="portfolioGallery" class="venobox" title="LABO"><i class="bx bx-image"></i></a>
+                                <a href="https://www.autostrada.uz/gm-uzbekistan/labo" title="LABO"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/auto/traverse.png" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>CHEVROLET</h4>
+                                <p>TRAVERSE</p>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/auto/traverse.png" data-gall="portfolioGallery" class="venobox" title="TRAVERSE"><i class="bx bx-image"></i></a>
+                                <a href="https://www.autostrada.uz/gm-uzbekistan/traverse" title="TRAVERSE"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/auto/cobalt.png" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>CHEVROLET</h4>
+                                <p>COBALT</p>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/auto/cobalt.png" data-gall="portfolioGallery" class="venobox" title="COBALT" data-><i class="bx bx-image"></i></a>
+                                <a href="https://www.autostrada.uz/gm-uzbekistan/cobalt" title="COBALT"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/auto/damas.png" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>CHEVROLET</h4>
+                                <p>DAMAS</p>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/auto/damas.png" data-gall="portfolioGallery" class="venobox" title="DAMAS"><i class="bx bx-image"></i></a>
+                                <a href="https://www.autostrada.uz/gm-uzbekistan/damas" title="DAMAS"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/auto/equinox.png" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>CHEVROLET</h4>
+                                <p>EQUINOX</p>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/auto/equinox.png" data-gall="portfolioGallery" class="venobox" title="EQUINOX"><i class="bx bx-image"></i></a>
+                                <a href="https://www.autostrada.uz/gm-uzbekistan/equinox" title="EQUINOX"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/auto/lacetti.png" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>CHEVROLET</h4>
+                                <p>LACETTI</p>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/auto/lacetti.png" data-gall="portfolioGallery" class="venobox" title="LACETTI"><i class="bx bx-image"></i></a>
+                                <a href="https://www.autostrada.uz/gm-uzbekistan/lacetti" title="LACETTI"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/auto/malibu3.png" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>CHEVROLET</h4>
+                                <p>MALIBU 3</p>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/auto/malibu3.png" data-gall="portfolioGallery" class="venobox" title="MALUBU3"><i class="bx bx-image"></i></a>
+                                <a href="https://www.autostrada.uz/gm-uzbekistan/malibu" title="MALIBU3"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/auto/nexia.png" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>CHEVROLET</h4>
+                                <p>NEXIA 3</p>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/auto/nexia.png" data-gall="portfolioGallery" class="venobox" title="NEXIA 3"><i class="bx bx-image"></i></a>
+                                <a href="https://www.autostrada.uz/gm-uzbekistan/nexia" title="NEXIA 3"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/auto/spark.png" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>CHEVROLET</h4>
+                                <p>SPARK</p>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/auto/spark.png" data-gall="portfolioGallery" class="venobox" title="SPARK"><i class="bx bx-image"></i></a>
+                                <a href="https://www.autostrada.uz/gm-uzbekistan/spark" title="SPARK"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/auto/tahoe.png" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>CHEVROLET</h4>
+                                <p>TAHOE</p>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/auto/tahoe.png" data-gall="portfolioGallery" class="venobox" title="TAHOE"><i class="bx bx-image"></i></a>
+                                <a href="https://www.autostrada.uz/gm-uzbekistan/tahoe" title="TAHOE"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-card">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/auto/tracker2.png" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>CHEVROLET</h4>
+                                <p>TRACKER 2</p>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/auto/tracker2.png" data-gall="portfolioGallery" class="venobox" title="TRACKER 2"><i class="bx bx-image"></i></a>
+                                <a href="https://www.autostrada.uz/gm-uzbekistan/tracker" title="TRACKER 2"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 portfolio-item filter-web">
+                        <div class="portfolio-wrap">
+                            <img src="assets/img/auto/trailblazer.png" class="img-fluid" alt="">
+                            <div class="portfolio-info">
+                                <h4>CHEVROLET</h4>
+                                <p>TRAILBLAZER</p>
+                            </div>
+                            <div class="portfolio-links">
+                                <a href="assets/img/auto/trailblazer.png" data-gall="portfolioGallery" class="venobox" title="TRAILBLAZER"><i class="bx bx-image"></i></a>
+                                <a href="https://www.autostrada.uz/gm-uzbekistan/trailblazer" title="TRAILBLAZER"><i class="bx bx-link"></i></a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Portfolio Section -->
+
+        <!-- ======= Pricing Section ======= -->
+        <!-- End Pricing Section -->
+
+        <!-- ======= Frequently Asked Questions Section ======= -->
+        <section id="faq" class="faq">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>FAQ</h2>
+                    <p>Ko`p beriladigan savollar.</p>
+                </div>
+
+                <div class="faq-list">
+                    <ul>
+                        <li data-aos="fade-up" data-aos="fade-up" data-aos-delay="100">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" class="collapse" href="#faq-list-1">AVTOMOBILNI SHARTNOMADA BELGILANGAN MUDDATIDAN AVVAL YETKAZIB BERISHNING IMKONI BORMI?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-1" class="collapse show" data-parent=".faq-list">
+                                <p>
+                                    Men aprel oyining boshida avtomobilni yetkazib berish shartnomasini imzoladim va shartnoma bo‘yicha mablag‘larni to‘ladim. Shartnomada avtomobilni yetkazib berish muddati 30 iyun deb ko‘rsatilgan. Avtomobilni shu muddatdan avval yetkazib berish imkoni
+                                    bormi?
+                                    <br> Xaridor va diler o‘rtasida tuzilgan avtomobilni yetkazib berish shartnomasi shartlariga muvofiq (3.1-bandi) avtomobilni yetkazxib berish muddati belgilangan.
+                                    <br> Xaridorlarning diqqatiga: Shartnomani imzolashda shartnomaning shartlarini; to‘lovning shakli, avtomobilni yetkazib berish muddati, tomonlarning huquqlari va majburiyatlarini diqqatbilan o‘rganib chiqish juda muhimdir.
+                                    <br> Shartnomada ko‘rsatilgan muddatlar tasdiqlangan ishlab chiqarish rejasiga va import qilinadigan detallarni chet eldan yetkazib berish muddatlariga, asoslanadi, dilerlik korxonasiga sotishning ajratiladigan oylik
+                                    kvotalari hisobga olinadi.
+                                    <br> Shuningdek, ko‘pchilik hollarda avtomobilni yetkazib berish shartnomada ko‘rsatilgan muddatidan avval amalga oshirilishini qayd etish lozim.
+                                    <br> Tuzilgan shartnomaga muvofiq avtomobilni yetkazib berish muddatlari buzilganda, xaridor o‘zini qiziqtirgan ma’lumotni olish uchun 141-77-77 telefoni orqali «UZAUTO MOTORS» AJ ning mijozlarga ko‘maklashish xizmatiga
+                                    (Call center) ga yoki 147-14-14 kompaniyaning ishonch telefoniga to‘g‘ridan-to‘g‘ri murojaat qilish huquqiga ega.
+                                </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="200">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-2" class="collapsed">MEN KREDITGA AVTOMOBIL SOTIB OLMOQCHIMAN. HECH KIM BU MASALANI HAL ETISHNI ISTAMAYAPTI. AVTOSALON MENGA AVTOKREDIT SHARTNOMASINI BERISHNI RAD ETGAN. BANKDA ESA UCH TOMONLAMA SHARTNOMANI TALAB QILISHMOQDA.<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-2" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    «UZAUTO MOTORS» AJ va uning dilerlik korxonalari kredit tashkilotlari bo‘lmagani uchun, bu masala murojaatlar klassifikatoridan chiqarib tashlangan.
+                                    <br> Axborot uchun: Moliyaviy iste’mol kreditlarini beruvchi tashkilotlar banklar yoki Markaziy bankning maxsus ruxsatnomasi (litsenziyasi) asosida O‘zbekiston Respublikasining «Banklar va bank faoliyati to‘g‘risida»
+                                    Qonunida ko‘zda tutilgan bank operatsiyalarini amalga oshirish huquqiga ega bo‘lgan boshqa kredit tashkilotlari hisoblanadi.
+                                    <br> Kreditlash masalalari bank muassasalarining sohasiga kiradi, demak, avtosalonlar (rasmiy dilerlik korxonalari) mijozga avtomobillarni yetkazib berish bo‘yicha namunaviy shartnomalarni beradi, ularda jismoniy shaxslar
+                                    uchun quyidagi to‘lov shakllari ko‘zda tutilgan:
+                                    <br> - naqd pul evaziga, vatanimizda ishlab chiqarilgan yengil avtomobillarning qiymati banklarning kassalariga to‘langan holda;
+                                    <br> - O‘zbekiston Respublikasi banklarining pul muomalasi bo‘yicha ishlarni tashkil etish bo‘yicha Yo‘riqnomaning 34-bandiga muvofiq, fuqarolarning banklardagi omonat hisobraqamlaridan yoki plastik kartochkalari orqali
+                                    pul o‘tkazish yo‘li bilan, jismoniy shaxslarning hisobraqamga kiritilgan pul mablag‘lari hisobiga.</p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="300">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-3" class="collapsed">AVTOMOBILLAR BO‘YICHA KAFOLATNING SHARTLARI <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-3" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    Kafolatning shartlari servis kitobchasida bayon etilgan.
+                                    <br> «Avtomobil bo‘yicha kafolatning saqlanishi uchun Egasi «UZAUTO MOTORS AJ ning dilerlik markazida davriy xizmat ko‘rsatishdan o‘tishi shart:
+                                    <br> a) Neksiya, Spark, Matiz, Damas, Lasetti, Kobalt modellari uchun – birinchi texnik xizmat ko‘rsatish, qaysi biri avvalroq kelishiga qarab, 2000 km gacha yo‘l o‘tilganda yoki avtomobil sotib olingan sanasidan 3
+                                    oy o‘tganda o‘tkaziladi. Keyingi har bir 5000 km o‘tilgan yo‘l yoki har 3 oy oralig‘ida, qaysi biri avvalroq kelishiga qarab (7000 km, 12000 km, 17000 km va hokazo).
+                                    <br> b) Kaptiva, Malibu, Orlando modellari uchun – birinchi texnik xizmat ko‘rsatish, qaysi biri avvalroq kelishiga qarab, 7500 km gacha yo‘l o‘tilganda yoki avtomobil sotib olingan sanasidan 6 oy o‘tganda o‘tkaziladi.
+                                    Keyingi har bir 7500 km o‘tilgan yo‘l yoki har 6 oy oralig‘ida, qaysi biri avvalroq kelishiga qarab. (15000 km, 22500 km va hokazo)
+                                    <br> Davriy xizmat ko‘rsatishdan o‘tish reglamenti buzilganda avtomobil bo‘yicha kafolat bekor qilinadi. </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="400">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-4" class="collapsed">RASMIY DILERLARNING JOYLASHUVI <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-4" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    Siz <a href="https://uzautomotors.com/dillers/cat/1">bu yerda</a> bilishingiz, yoki (371) 141-77-77 telefon raqami orqali «UZAUTO MOTORS» AJ ning axborot markaziga qo‘ng‘iroq qilib, aniqlashingiz mumkin. </p>
+                            </div>
+                        </li>
+
+                        <li data-aos="fade-up" data-aos-delay="500">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">KOMPANIYA RAHBARIYATINING QABUL KUNLARI <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    Fuqarolarni qabul qilish har bir ish kunida soat 8:00 dan 11:00 gacha, «UZAUTO MOTORS» AJ ning bosh ofisi binosida o‘tkaziladi (xona № 107). Batafsil axborotni bu yerda qarang <a href="https://uzautomotors.com/contacts/grafik_priyoma_spitsialnoy_rabochey_gruppoy"> https://uzautomotors.com/contacts/grafik_priyoma_spitsialnoy_rabochey_gruppoy </a></p>
+                            </div>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="500">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">KOMPANIYA REKVIZITLARI <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    Pochta manzili: 100060, Toshkent shahri, Mirobod tumani, Nukus ko‘chasi, 8-uy hamda elektron manzili: info@uzautomotors.com
+                                </p>
+                            </div>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="500">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">MAHALLIY ISHLAB CHIQARILGAN AVTOMOBILLARGA SERVIS VA KAFOLAT XIZMAT KO‘RSATISH QANDAY TARTIBDA AMALGA OSHIRILADI? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    Kafolat servis xizmat ko‘rsatish rasmiy dilerlik korxonalari tomonidan avtomobilning servis kitobchasida ko‘rsatilgan muddat ichida, kafolat xizmat ko‘rsatish reglamentining asosida (almashtirilishi lozim bo‘gan detallar va xizmatlar) taqdim etiladi.
+                                    <br> Bizning kompaniyamiz xaridorga, uning tomonidan sotib olingan avtomobil qat’iy sifat talablariga muvofiq ishlab chiqarilganligini kafolatlaydi. Shu sababli, kafolat mudati mobaynida rasmiy dilerlik markazi quyidagi
+                                    shartlarga rioya qilinganda, to‘liq bepul tarzda detallar almashtirilishini va xizmat ko‘rsatilishini ta’minlaydi:
+                                    <br> Kafolat servis xizmat ko‘rsatish faqat rasmiy dilerlik korxonalari orqali sotilgan avtomobillar bo‘yicha taqdim etiladi. Kafolat servis xizmat ko‘rsatish normal sharoitlarda foydalaniladigan avtomobillar uchun,
+                                    (qaysi biri avvalroq kelishiga qarab) avtomobilning mijoz tomonidan qabul qilinishi kunidan boshlab 12 oy davomida yoki probega avtomobilning 20 ming km lik o‘tilgan yo‘li mobaynida taqdim etiladi. Kafolat servis xizmat
+                                    ko‘rsatish faqat rasmiy dilerlik korxonalarida amalga oshiriladi.
+                                    <br> Kafolat servis xizmat ko‘rsatish uchun buyurtmalar faqat avtomobilning kafolat servis xizmat ko‘rsatish kitobasi bilan birga qabul qilinadi. Kafolat servis xizmat ko‘rsatish davri mobaynida avtomobilning yangi
+                                    egasi xudi shunday xizmat ko‘rsatish huquqlariga ega bo‘ladi. Buning uchun avtomobilni sotish paytida servis kitobchasini yangi egasining nomiga qayta rasmiylashtirish. </p>
+                            </div>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="500">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">AVTOMOBIL UCHUN TO‘LANGAN MABLAG‘NI QAYTARISH TARTIBINI TUSHUNTIRING. <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    Avtomobillarni rasmiy dilerlik korxonalari orqali sotishda to‘langan mablag‘ to‘g‘ridan-to‘g‘ri kompaniyaning maxsus hisobraqamiga o‘tkaziladi, va to‘langan mablag‘ni qaytarish jarayoni ishlab chiqaruvchi kompaniyaga bevosita bog‘liq bo‘ladi. Buning uchun
+                                    quyidagi hujjatlarni tayyorlash lozim: Mijoz (jismoniy yoki yuridik shaxs) va rasmiy dilerlik korxonasi o‘rtasida avtomobilni yetkazib berish shartnomasi bo‘yicha to‘langan mablag‘ni qaytarish yuzasidan ariza; belgilangan
+                                    tartibda rasmiylashtirilgan to‘langan mablag‘ni solishtirish dalolatnomasi. Shuningdek, mijozning istagiga ko‘ra to‘langan mablag‘ning qaytarilishida, mijoz imzolangan avtomobilning oldi-sotdi shartnomasining 5.3-bandiga
+                                    muvofiq jarima to‘lashi lozim. Barcha hujjatlar yig‘ilganidan keyin pul mablag‘larini qaytarish amalga oshiriladi. Avtomobilni yetkazib berish shartnomada ko‘rsatilgan muddatlardan kechiktirilganda, ushbu jarima undirilmaydi.</p>
+                            </div>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="500">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">AVTOMOBILNI SOTIB OLISH UCHUN ARIZANI BERISH TARTIBI QANDAY? <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    1. Shartnomani tuzish uchun, Mijoz Dilerga kelib murojaat qilishi, yoki Portal orqali elektron buyurtma berish yo‘li bilan murojaat qilishi mumkin.
+                                    <br> 2. Kelib murojaat qilganda, jismoniy shaxs bo‘lgan Mijoz dilerga quyidagilarni taqdim etadi:
+                                    <br> • O‘zbekiston Respublikasi fuqarosining pasporti va soliq to‘lovchining identifikatsiyalash raqamining (STIR) nusxasi — O‘zbekiston Respublikasi fuqarolari uchun;
+                                    <br> • chet el fuqarosining pasporti— chet el fuqarolari uchun;
+                                    <br> • fuqaroligi bo‘lmagan shaxslar guvohnomasi — O‘zbekiston Respublikasida doimiy yashovchi fuqaroligi bo‘lmagan shaxslar uchun;
+                                    <br> • shaxsiy tadbirkorning davlat ro‘yxatidan o‘tkazilishi to‘g‘risida guvohnoma — shaxsiy tadbirkorlar uchun.
+                                    <br> 3. Kelib murojaat qilganda, yuridik shaxs bo‘lgan Mijoz dilerga quyidagilarni taqdim etadi:
+                                    <br> • avtomobil sotib olish istagi haqidagi yozma murojaat;
+                                    <br> • yuridik shaxs rahbari pasportining nusxasi;
+                                    <br> • yuridik shaxsning davlat ro‘yxatidan o‘tkazilishi to‘g‘risida guvohnoma.
+                                    <br> 4. Diler, Mijoz tomonidan taqdim etilgan hujjatlarning asosida, Portalda avtomobilni sotib olish uchun buyurtmani ro‘yxatdan o‘tkazishi lozim.
+                                    <br> 5. Diler, buyurtma ro‘yxatdan o‘tkazilganidan keyin, unga kiritilgan ro‘yxat ma’lumotlari asosida Portal tomonidan shakllantirilgan buyurtmani, avtomatik rejimda hosil qilinadigan buyurtmaning betakror identifikatsiyalash
+                                    raqami va Mijozni Shartnomani tuzish uchun navbatga qo‘yish raqami ko‘rsatilgan holda, chop etadi. </p>
+                            </div>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="500">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">AVTOMOBIL UCHUN TO‘LOVLARNING TURLARI <i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    1. Avtomobillarni jismoniy shaxslarga sotish quyidagi tartibda amalga oshiriladi:
+                                    <br> - bank muassasalarining kassalariga naqd pul mablag‘larini topshirish yo‘li bilan;
+                                    <br> - tijorat banklari tomonidan avtomobilni sotib olish uchun ajratiladigan iste’mol kreditlari hisobiga jismoniy shaxslarning omonat (depozit) yoki ssuda hisobraqamlaridan pul mablag‘larini o‘tkazish yo‘li bilan.
+                                    <br> - faqat xaridorning nomiga rasmiylashtirilgan jismoniy shaxsning plastik kartochkasi orqali.
+                                    <br> 2. Avtomobillarni yuridik shaxslarga sotish quyidagi tartibda amalga oshiriladi:
+                                    <br> - banklardagi ularning talab qilib olinguncha depozit hisobraqamlaridan qonunchilik bilan belgilangan tartibda pul mablag‘larini o‘tkazish yo‘li bilan;
+                                    <br> - tijorat banklari tomonidan avtomobilni sotib olish uchun ajratiladigan kreditlar hisobiga yuridik shaxslar va shaxsi tadbirkorlarning ssuda hisobraqamlaridan pul mablag‘larini o‘tkazish yo‘li bilan.
+                                </p>
+                            </div>
+                        </li>
+                        <li data-aos="fade-up" data-aos-delay="500">
+                            <i class="bx bx-help-circle icon-help"></i> <a data-toggle="collapse" href="#faq-list-5" class="collapsed">AVTOMOBILNI YETKAZIB BYERISH MUDDATLARI QANDAY?<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+                            <div id="faq-list-5" class="collapse" data-parent=".faq-list">
+                                <p>
+                                    Dastlabki to‘lovning belgilangan miqdori, yoki avtomobilning to‘liq qiymatining Ishlab chiqaruvchining bank hisobraqamiga kelib tushishi sanasidan boshlab avtomobilni yetkazib berish:
+                                    <br> - 1 (bir) ish kuni - Dilerda (omborda) mavjud bo‘lgan avtomobil uchun;
+                                    <br> - 60 (oltmish) ish kuni - Sanoat yig‘ish usuli bilan yig‘iladigan avtomobil uchun;
+                                    <br> - 90 (to‘qson) ish kuni – Yirik tarmoqli yig‘ish usuli bilan yig‘iladigan avtomobil uchun;
+                                    <br> - 120 (bir yuz yigirma) ish kuni - opsiyalarning standart to‘plamidan farqli, Mijozning tanloviga ko‘ra mumkin bo‘lgan opsiyalarning o‘zgartirilgan to‘plami bo‘lgan, Sanoat yig‘ish usuli bilan yig‘iladigan avtomobil
+                                    uchun.
+                                    <br> Avtomobillarni yetkazib berishning belgilanagn muddatlari buziolishi uchun, shuningdek boshqa shartlarning buzilishlari uchun dilerlik bitimlarida belgilangan choralar, to bitimlarni bekor qilishgacha, qo‘llanadi.
+                                </p>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+        <!-- End Frequently Asked Questions Section -->
+
+        <!-- ======= Contact Section ======= -->
+        <section id="contact" class="contact section-bg">
+            <div class="container" data-aos="fade-up">
+
+                <div class="section-title">
+                    <h2>Aloqa</h2>
+                    <p>Maqsadi: Avtomobillarning sotilishi va sotuvdan keyingi xizmat ko‘rsatish yuzasidan umumiy masalalar..
+                        <br> Kompaniya to‘g‘risida ma’lumot;
+                        <br> Rasmiy diler korxonalari va servis markazlari to‘g‘risida ma’lumot;
+                        <br> Kompaniya tomonidan ishlab chiqariladigan avtomobillarning narxlari, modellari, opsiyayalari va texnik xususiyatlari to‘g‘risida ma’lumot;
+                        <br> Avtomobilni sotib olish taomili to‘g‘risida ma’lumot;
+                        <br> Avtomobilni tuzilgan shartnomaga muvofiq yetkazib berish muddatlari to‘g‘risida ma’lumot;
+                        <br> Avtomobilni sotib olish uchun to‘lovlarning turlari;
+                        <br> Avtomobilga kafolat muddat davomida texnik xizmat ko‘rsatish masalalari;
+                        <br> Avtomobilni sotib olish shartnomasi bo‘yicha to‘langan pul mablag‘larini qaytarish bilan bog‘liq masalalar;
+                        <br> Kompaniyaga yuborilgan xatlar to‘g‘risida ma’lumot;
+                        <br> Avtomobillar uchun ehtiyot qismlarini xarid qilish to‘g‘risida ma’lumot;
+                        <br> Diler korxonalarida avtomobillar uchun gaz ballon jihoz-uskunalarini o‘rnatish bo‘yicha maslahatlar;</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-lg-6">
+                        <div class="info-box mb-4">
+                            <i class="bx bx-map"></i>
+                            <h3>Manzil</h3>
+                            <p> O`zbekiston Respublikasi, 100060, Toshkent shahar, Mirobod tumani, Nukus ko`chasi,8</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="info-box  mb-4">
+                            <i class="bx bx-envelope"></i>
+                            <h3>Email</h3>
+                            <p> info@uzautomotors.com</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-3 col-md-6">
+                        <div class="info-box  mb-4">
+                            <i class="bx bx-phone-call"></i>
+                            <h3>Telefon</h3>
+                            <p>+99878-141-77-77</p>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="row">
+
+                    <div class="scol-lg-6 ">
+                        <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2999.9575943490995!2d69.225437214883!3d41.24448161280594!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae6161455be9ad%3A0x7ad14e5a3bc1b9ad!2sChina%20Motors!5e0!3m2!1sru!2s!4v1646913696734!5m2!1sru!2s"
+                            frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <form action="mail.php" method="POST" class="php-email-form">
+                            <div class="form-row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Ismingiz" />
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Email" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Kasbingiz" />
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5"></textarea>
+                            </div>
+                            <div class="mb-3">
+                                <div class="loading">Yuklash...</div>
+                                <div class="error-message">Xabar jo`natishda xatolik yuz berdi. Iltimos, takkoran urunib ko`ring.</div>
+                                <div class="sent-message">Sizning xabaringiz yuorildi.</div>
+                            </div>
+                            <div class="text-center"><button type="submit">Xabarni jo`natish</button></div>
+                        </form>
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <!-- End Contact Section -->
+
+    </main>
+    <!-- End #main -->
+
+    <!-- ======= Footer ======= -->
+    <footer id="footer">
+
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-lg-3 col-md-6 footer-contact">
+                        <h3>AutoSalon</h3>
+                        <p>
+                            O`zbekiston Respublikasi, 100060, Toshkent shahar, Mirobod tumani, Nukus ko`chasi,8 <br><br>
+                            <strong>Telefon:</strong> +99878-141-77-77<br>
+                            <strong>Email:</strong> info@uzautomotors.com<br>
+                        </p>
+                    </div>
+
+                    <div class="col-lg-2 col-md-6 footer-links">
+                        <h4>Main Menu</h4>
+                        <ul>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#">Asosiy</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#about">Yangiliklar</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#services">Bizning xizmatlar</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#portfolio">Mashinalar</a></li>
+                            <li><i class="bx bx-chevron-right"></i> <a href="#contact">Aloqa</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="col-lg-7 col-md-6 footer-newsletter">
+                        <iframe src="https://www.autostrada.uz/gm-uzbekistan/" frameborder="0" width="100%" height="300px"></iframe>
+                        <!-- <h4>Qidiruv tizimi</h4>
+                        <p></p>
+                        <form action="" method="post">
+                            <input type="text" name="email"><input type="submit" value="Jo`natish">
+                        </form> -->
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+
+            <div class="copyright-wrap d-md-flex py-4">
+                <div class="mr-md-auto text-center text-md-left">
+                    <div class="copyright">
+                        &copy; Dasturchi <strong><span>Shoymardonov Jamshid</span></strong>. Email <a style="color: #0891f2;" href="mailto:jamshid.shoymardonov@mail.ru">jamshid.shoymardonov@mail.ru</a> Barcha xizmatlar litsenziyalangan.
+                    </div>
+                    <div class="credits">
+                        <!-- All the links in the footer should remain intact. -->
+                        <!-- You can delete the links only if you purchased the pro version. -->
+                        <!-- Licensing information: https://bootstrapmade.com/license/ -->
+                        <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/techie-free-skin-bootstrap-3/ -->
+                        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+                    </div>
+                </div>
+                <div class="social-links text-center text-md-right pt-3 pt-md-0">
+                    <a href="http://twitter.com/" class="twitter"><i class="bx bxl-twitter"></i></a>
+                    <a href="http://facebook.com/" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="http://instagram.com/" class="instagram"><i class="bx bxl-instagram"></i></a>
+                    <a href="http://gmail.com/" class="google-plus"><i class="bx bxl-google"></i></a>
+                    <a href="http://linkedin.com/" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+                </div>
+            </div>
+
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <a href="#" class="back-to-top"><i class="icofont-simple-up"></i></a>
+    <div id="preloader"></div>
+    <script type="text/javascript">
+        $('#exampleModal').on('show.bs.modal', function(event) {
+            var button = $(event.relatedTarget) // Button that triggered the modal
+            var recipient = button.data('whatever') // Extract info from data-* attributes
+                // If necessary, you could initiate an AJAX request here (and then do the updating in a callback).
+                // Update the modal's content. We'll use jQuery here, but you could use a data binding library or other methods instead.
+            var modal = $(this)
+            modal.find('.modal-title').text('New message to ' + recipient)
+            modal.find('.modal-body input').val(recipient)
+        })
+    </script>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/jquery/jquery.min.js"></script>
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+    <script src="assets/vendor/counterup/counterup.min.js"></script>
+    <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+    <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+    <script src="assets/vendor/venobox/venobox.min.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+
+    <!-- Template Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
